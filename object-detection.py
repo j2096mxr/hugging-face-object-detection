@@ -28,7 +28,8 @@ for instance in result:
     width = x2-x1
     height = y2 - y1
 
-    print(f'{label} -> score: {score}, ({x1}, {y1})-({x2}, {y2}){width}x{height}')
+    print(f'{label} -> score: {score}, ({x1}, {y1})-({x2},
+           {y2}){width}x{height}')
 
     draw.rectangle(((x1, y1), (x2, y2)), width=2, outline='RED')
 
