@@ -9,7 +9,7 @@ model = transformers.pipeline('object-detection')
 
 result = model(img)
 
-th: 10
+th = 10
 
 draw = ImageDraw.Draw(img)
 
